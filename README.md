@@ -1,4 +1,4 @@
 python-spider
 =============
 
-These are written in python web crawler file
+This is some of the web crawler written in Python.
