@@ -2,9 +2,9 @@
 import os, sys, string
 import MySQLdb
 
-con=MySQLdb.connect(host='localhost',user='root',passwd='admin',db='user')
+conn = MySQLdb.connect(host = 'localhost', user = 'root', passwd = 'admin',db = 'user')
 
-cursor = con.cursor()
+cursor = conn.cursor()
 sql = "insert into telephone(name, telephone) values ('%s', %d)" % ("Cryhelyx", 10086)
 
 cursor.execute(sql)
@@ -19,4 +19,4 @@ if alldata:
 
 cursor.close()
 
-con.close()
+conn.close()
