@@ -1,4 +1,4 @@
-#!/usr/bin/env python
+#!/usr/bin/python
 #-*- coding: utf-8 -*-
 #通过urllib(2)模块下载网络内容
 import urllib,urllib2,gevent
@@ -9,7 +9,7 @@ from gevent import monkey
 monkey.patch_all()
    
 def geturllist(url):
-    url_list=[]
+    url_list = []
     print url       
     s = urllib2.urlopen(url)
     text = s.read()
@@ -17,7 +17,7 @@ def geturllist(url):
     html = re.search(r'<ol.*</ol>', text, re.S)
     urls = re.finditer(r'<p><img src="(.+?)jpg" /></p>', html.group(), re.I)
     for i in urls:
-        url=i.group(1).strip()+str("jpg")
+        url = i.group(1).strip()+str("jpg")
         url_list.append(url)
     return url_list
    
