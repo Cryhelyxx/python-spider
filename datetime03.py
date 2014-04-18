@@ -5,7 +5,7 @@
 	计算上一个的时间
 """
 #引入datetime,calendar两个模块
-import datetime,calendar
+import datetime, calendar
   
 last_friday = datetime.date.today() 
 oneday = datetime.timedelta(days = 1) 
