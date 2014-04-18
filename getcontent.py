@@ -48,14 +48,14 @@ def print_links(soup):
 
 		if link.get('href') == None:
 			continue
-        #筛选"http://"开头的链接
+		#筛选"http://"开头的链接
 		match = re.search(r'^(http://)', link.get('href'), re.I)
 		if match == None:
 			continue
 		if match.group().find("http://") != -1:
-            #进一步去掉重复的链接
+			#进一步去掉重复的链接
 			if link.get('href') not in list_links:
-            #if list_links.count(link.get('href')) == 0:     #与上一句等效
+			#if list_links.count(link.get('href')) == 0:     #与上一句等效
 				list_links.append(link.get('href'))
 				print(link.get('href'))
 	print len(list_links)       
