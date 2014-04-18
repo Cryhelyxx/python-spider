@@ -15,7 +15,7 @@ def geturllist(url):
     text = s.read()
     #正则匹配，匹配其中的图片
     html = re.search(r'<ol.*</ol>', text, re.S)
-    urls = re.finditer(r'<p><img src="(.+?)jpg" /></p>',html.group(),re.I)
+    urls = re.finditer(r'<p><img src="(.+?)jpg" /></p>', html.group(), re.I)
     for i in urls:
         url=i.group(1).strip()+str("jpg")
         url_list.append(url)
@@ -30,14 +30,14 @@ def getpageurl():
     page_list = []
     #进行列表页循环
     for page in range(900, 1000):
-        url="http://jandan.net/ooxx/page-"+str(page)+"#comments"
+        url = "http://jandan.net/ooxx/page-" + str(page) + "#comments"
         #把生成的url加入到page_list中
         page_list.append(url)
     print page_list
     return page_list
 if __name__ == '__main__':
     jobs = []
-    pageurl = getpageurl()[::-1]
+    pageurl = getpageurl()[::-1]    #步长为-1， 倒序
     #进行图片下载
     for i in pageurl:
         for (downurl) in geturllist(i):
