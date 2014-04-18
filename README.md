@@ -1,4 +1,4 @@
 python-spider
 =============
 
-This is some of the web crawler written in Python.
+These are some the web crawler by Cryhelyxx written in Python.
