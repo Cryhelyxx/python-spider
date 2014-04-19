@@ -14,8 +14,6 @@ import sys
 reload(sys)
 sys.setdefaultencoding('utf8')
 
-
-
 #1. 抓取网页数据
 def getContent(filename1):
 	#数据源
@@ -64,7 +62,6 @@ def print_links(soup):
 				print(link.get('href'))
 	print len(list_links)       
  			
-
 #4. 往mainData.html文件写入正文标题及内容, 保留原来的排版
 def outputData(soup, filename2):
 	op = open(filename2, "wb+")
