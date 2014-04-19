@@ -2,7 +2,7 @@
 #-*- coding: utf-8 -*-
 # Filename: while.py
 """
-    猜数
+    猜数游戏
 """
 
 number = 23
