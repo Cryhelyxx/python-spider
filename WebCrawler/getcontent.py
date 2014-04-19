@@ -1,5 +1,9 @@
 #-*- coding: utf-8 -*-
-#file: getcontent.py
+#filename: getcontent.py
+
+"""
+    抓取文章正文标题及正文内容
+"""
 
 import re
 import urllib2
