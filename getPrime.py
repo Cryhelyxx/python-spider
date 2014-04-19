@@ -1,6 +1,6 @@
 #! /usr/bin/python
 #-*- coding: utf-8 -*-
-#file: getPrime.py
+#filename: getPrime.py
 
 """
     用python求第1000个质数的值
