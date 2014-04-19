@@ -1,4 +1,4 @@
-#!/usr/bin/python
+#!/usr/bin/env python
 #-*- coding: utf-8 -*-
 #通过urllib(2)模块下载网络内容
 import urllib,urllib2,gevent
