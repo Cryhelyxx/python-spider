@@ -1,5 +1,8 @@
 #-*- coding: utf-8 -*-
 #file: PyMySQL.py
+"""
+    连接mysql数据库
+"""
 
 import MySQLdb      #导入MySQLdb模块
 conn = MySQLdb.connect(
