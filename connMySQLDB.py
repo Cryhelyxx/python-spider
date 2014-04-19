@@ -1,5 +1,5 @@
 #-*- coding: utf-8 -*-
-#file: connMySQLDB.py
+#filename: connMySQLDB.py
 """
     连接mysql数据库
 """
