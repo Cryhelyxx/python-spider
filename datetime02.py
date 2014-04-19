@@ -2,7 +2,7 @@
 #-*- coding:utf-8 -*-
 #filename: datetime02.py
 """
-	借助模运算，可以一次算出需要减去的天数，计算上一个星期五
+    借助模运算，可以一次算出需要减去的天数，计算上一个星期五
 """
 #同样引入datetime,calendar两个模块
 import datetime 
