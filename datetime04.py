@@ -8,6 +8,7 @@ import httplib
 import datetime, calendar
 import logging
 import time
+import os
 
 #获取网络时间
 def getBeijinTime():
@@ -55,7 +56,6 @@ def syncLocalTime():
      logging.info("get beijinTime is: %d-%d-%d %d:%d:%d" % beijinTime[:6])
            
      tm_year, tm_mon, tm_mday, tm_hour, tm_min, tm_sec = beijinTime[:6]
-     import os
      os.system("date %d-%d-%d" % (tm_year, tm_mon, tm_mday))     #设置日期
      os.system("time %d:%d:%d.0" % (tm_hour, tm_min, tm_sec))    #设置时间
      logging.info("syncLocalTime complete, current local time: %d-%d-%d %d:%d:%d \n" % time.localtime()[:6])
