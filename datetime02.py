@@ -1,6 +1,6 @@
 #! /usr/bin/python
 #-*- coding:utf-8 -*-
-#file: datetime02.py
+#filename: datetime02.py
 """
 	借助模运算，可以一次算出需要减去的天数，计算上一个星期五
 """
