@@ -1,8 +1,8 @@
 #! /usr/bin/python
-#-*- coding:utf-8 -*-
+#-*- coding: utf-8 -*-
 #filename: datetime01.py
 """
-    获取今天、 昨天和明天的日期
+    获取今天、昨天和明天的日期
 """
 #引入datetime模块
 import datetime
