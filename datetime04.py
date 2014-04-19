@@ -43,7 +43,7 @@ def getBeijinTime():
 #同步本地系统时间
 def syncLocalTime():
  """
- 	同步本地时间
+    同步本地时间
  """
  logging.info("current local time is: %d-%d-%d %d:%d:%d" % time.localtime()[:6])
    
