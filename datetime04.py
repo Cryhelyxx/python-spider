@@ -1,8 +1,8 @@
 #! /usr/bin/python
 #-*- coding: utf-8 -*-
-#file: datetime03.py
+#filename: datetime03.py
 """
-	python获取网络时间和本地时间
+    python获取网络时间和本地时间
 """
 import httplib
 import datetime, calendar
