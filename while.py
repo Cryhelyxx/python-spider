@@ -1,6 +1,7 @@
 #!/usr/bin/python
 #-*- coding: utf-8 -*-
 # Filename: while.py
+
 """
     猜数游戏
 """
