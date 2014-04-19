@@ -1,6 +1,6 @@
 #! /usr/bin/python
 #-*- coding: utf-8 -*-
-#file: datetime03.py
+#filename: datetime03.py
 """
 	计算上一个的时间
 """
