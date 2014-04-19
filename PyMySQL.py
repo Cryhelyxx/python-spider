@@ -1,5 +1,5 @@
 #-*- coding: utf-8 -*-
-#file: PyMySQL.py
+#filename: PyMySQL.py
 """
     连接mysql数据库
 """
