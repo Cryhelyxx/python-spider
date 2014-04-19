@@ -4,7 +4,6 @@
 """
    批量下载网络图片
 """
-
 #通过urllib(2)模块下载网络内容
 import urllib,urllib2,gevent
 #引入正则表达式模块，时间模块
