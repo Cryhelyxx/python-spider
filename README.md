@@ -1,7 +1,7 @@
 python-spider
 =============
 
-These are some the web crawler and some python practice written in Python by Cryhelyxx.
+These are some the web crawler and some python practice written in Python by zhuxiongxian.
 
 ##关于我
 
