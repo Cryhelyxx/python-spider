@@ -11,4 +11,4 @@ These are some the web crawler and some python practice written in Python by Cry
 
 * Github： [我的github](https://github.com/xiongxianzhu "zhuxiongxian的github")
 
-Copyright © 2014 `Cryhelyxx`, All Rights Reserved
+Copyright © 2014 `zhuxiongxian`, All Rights Reserved
